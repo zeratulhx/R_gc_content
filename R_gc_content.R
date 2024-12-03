@@ -26,7 +26,7 @@ main <- function() {
   full_sequence <- read_fasta(fasta_file)
   gc_content <- calculate_gc_content(full_sequence)
   
-  cat(sprintf("Overall GC Content: %.2f%%\n", gc_content)
+  cat(sprintf("Overall GC Content: %.2f%%\n", gc_content))
 }
 
 # Call main function if script is run
